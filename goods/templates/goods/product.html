@@ -1,0 +1,182 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Интернет-магазин</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <a class="logo" href="main.html">
+          <img src="img/placeholder.svg" alt="Логотип интернет-магазина мягкой мебели">
+        </a>
+        <a class="search" href="search.html">
+          <img src="img/placeholder.svg" alt="Поиск">
+        </a>
+        <ul class="site-navigation">
+          <li class="site-navigation-item">
+            <a href="main.html">Главная</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">О нас</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="categories.html">Каталог</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="#">Помощь</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="cart.html">Корзина</a>
+          </li>
+          <li class="site-navigation-item">
+            <a href="account.html"><img src="img/placeholder.svg" alt="Иконка личного кабинета"></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <h2>Название товара</h2>
+
+      <section class="product">
+
+        <img src="img/placeholder.svg" alt="Товар">
+        <a href="product.html"><img src="img/placeholder.svg" alt="Товар-другой1"></a>
+        <a href="product.html"><img src="img/placeholder.svg" alt="Товар-другой2"></a>
+
+        <img src="img/placeholder.svg" alt="Оценка">
+        <p>Цена</p>
+        <img src="img/placeholder.svg" alt="Выбрать модель">
+
+        <p>
+          <ul class="main">
+            <li class="main">
+              <a href="#">Описание товара</a>
+            </li>
+            <li class="main">
+              <a href="#">Спецификации</a>
+            </li>
+            <li class="main">
+              <a href="#">Рзамеры</a>
+            </li>
+            <li class="main">
+              <a href="#">Материалы</a>
+            </li>
+          </ul>
+        </p>
+
+        <p><a href="cart.html">Добавить в корзину</a></p>
+      </section>
+
+      <h2>Похожие товраы</h2>
+
+      <section class="similar">
+
+        <a href="product.html"><img src="img/placeholder.svg" alt="Рекомендация1">
+        <p>Имя товара1</p></a>
+        <p>Цена1</p>
+
+        <a href="product.html"><img src="img/placeholder.svg" alt="Рекомендация2">
+        <p>Имя товара2</p></a>
+        <p>Цена2</p>
+
+        <a href="product.html"><img src="img/placeholder.svg" alt="Рекомендация3">
+        <p>Имя товара3</p></a>
+        <p>Цена3</p>
+
+        <a href="product.html"><img src="img/placeholder.svg" alt="Рекомендация4">
+        <p>Имя товара4</p></a>
+        <p>Цена4</p>
+
+        <a href="product.html"><img src="img/placeholder.svg" alt="Рекомендация5">
+        <p>Имя товара5</p></a>
+        <p>Цена5</p>
+      </section>
+
+      <h2>Отзывы</h2>
+
+      <section class="reviews">
+
+        <img src="img/placeholder.svg" alt="Аватар1">
+        <p>Имя</p>
+        <p>Дата</p>
+        <img src="img/placeholder.svg" alt="Оценка1">
+        <p>Отзыв1</p>
+
+        <img src="img/placeholder.svg" alt="Аватар2">
+        <p>Имя</p>
+        <p>Дата</p>
+        <img src="img/placeholder.svg" alt="Оценка2">
+        <p>Отзыв2</p>
+
+      </section>
+
+    </main>
+    <footer class="main-footer">
+      <img src="img/placeholder.svg" alt="Логотип интернет-магазина мягкой мебели">
+      <p><a href="#">Политика конфиденциальности</a></p>
+      <p>Название комапнии Все права защищены</p>
+<ul>
+      <p><h2><li>Основное</li></h2>
+        <ul class="main">
+          <li class="main">
+            <a href="main.html">Главная</a>
+          </li>
+          <li class="main">
+            <a href="#">О нас</a>
+          </li>
+          <li class="main">
+            <a href="categories.html">Каталог</a>
+          </li>
+          <li class="main">
+            <a href="#">Помощь</a>
+          </li>
+        </ul>
+      </p>
+
+      <p><h2><li>Спец предложения</li></h2>
+        <ul class="props">
+          <li class="props">
+            <a href="#">Акции</a>
+          </li>
+          <li class="props">
+            <a href="#">Скидки</a>
+          </li>
+          <li class="props">
+            <a href="#">Программа лояльности</a>
+          </li>
+        </ul>
+      </p>
+
+      <p><h2><li>Блог</li></h2>
+        <ul class="blog">
+          <li class="blog">
+            <a href="#">Статьи о дизайне интерьера</a>
+          </li>
+          <li class="blog">
+            <a href="#">Тренды в мире мебели</a>
+          </li>
+        </ul>
+      </p>
+
+      <p><h2><li>Служба поддержки</li></h2>
+        <ul class="support">
+          <li class="support">
+            <a href="#">FAQ</a>
+          </li>
+          <li class="support">
+            <a href="#">Контакты</a>
+          </li>
+          <li class="support">
+            <a href="#">Чат с консультантом</a>
+          </li>
+        </ul>
+      </p>
+</ul>
+    </footer>
+  </body>
+</html>
